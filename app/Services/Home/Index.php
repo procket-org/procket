@@ -2,7 +2,7 @@
 
 namespace App\Services\Home;
 
-use Pocket\Framework\ServiceInterface;
+use Procket\Framework\ServiceInterface;
 
 class Index implements ServiceInterface
 {

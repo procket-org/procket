@@ -1,3 +1,3 @@
-# Pocket Application
+# Procket Application
 
-The Pocket Application Skeleton.
+The Procket Application Skeleton.

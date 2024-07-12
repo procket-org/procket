@@ -1,6 +1,6 @@
 <?php
 
-use Pocket\Framework\Pocket;
+use Procket\Framework\Procket;
 
 if (!defined('APP_BASE_PATH')) {
     /**
@@ -11,4 +11,4 @@ if (!defined('APP_BASE_PATH')) {
 
 require __DIR__ . '/../vendor/autoload.php';
 
-Pocket::instance()->run();
+Procket::instance()->run();

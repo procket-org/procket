@@ -11,6 +11,6 @@ class Bootstrap
      */
     public function initAppOptions(): void
     {
-        pocket()->setClassOptions(include CONFIG_PATH . '/app.php');
+        procket()->setClassOptions(include CONFIG_PATH . '/app.php');
     }
 }

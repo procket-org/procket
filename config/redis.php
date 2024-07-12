@@ -11,7 +11,7 @@ return [
                 'database' => env('REDIS_DB', '0'),
             ],
             'options' => [
-                'prefix' => 'pocket_database:'
+                'prefix' => 'procket_database:'
             ]
         ],
         'cache' => [
@@ -23,7 +23,7 @@ return [
                 'database' => env('REDIS_CACHE_DB', '1'),
             ],
             'options' => [
-                'prefix' => 'pocket_cache:'
+                'prefix' => 'procket_cache:'
             ]
         ],
         'lock' => [
@@ -35,7 +35,7 @@ return [
                 'database' => env('REDIS_LOCK_DB', '2'),
             ],
             'options' => [
-                'prefix' => 'pocket_lock:'
+                'prefix' => 'procket_lock:'
             ]
         ]
     ]

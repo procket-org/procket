@@ -1,6 +1,6 @@
 <?php
 
-use Pocket\Framework\Middleware\StartSession;
+use Procket\Framework\Middleware\StartSession;
 
 return [
     'debug' => env('APP_DEBUG', true),

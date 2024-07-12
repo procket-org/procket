@@ -1,15 +1,15 @@
 {
-  "name": "pocket/app",
-  "description": "The Pocket Application.",
+  "name": "procket/app",
+  "description": "The Procket Application.",
   "keywords": [
-    "pocket application",
-    "pocket framework"
+    "procket application",
+    "procket framework"
   ],
   "license": "MIT",
   "require": {
     "php": "^8.2",
     "ext-json": "*",
-    "pocket/framework": "^1.0"
+    "procket/framework": "^1.0"
   },
   "autoload": {
     "psr-4": {
