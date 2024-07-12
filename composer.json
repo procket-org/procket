@@ -6,16 +6,10 @@
     "pocket framework"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../*"
-    }
-  ],
   "require": {
     "php": "^8.2",
     "ext-json": "*",
-    "pocket/framework": "@dev"
+    "pocket/framework": "^1.0"
   },
   "autoload": {
     "psr-4": {
