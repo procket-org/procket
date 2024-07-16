@@ -1,6 +1,7 @@
 {
-  "name": "procket/app",
-  "description": "The Procket Application.",
+  "name": "procket/procket",
+  "type": "project",
+  "description": "The Procket Application Skeleton.",
   "keywords": [
     "procket application",
     "procket framework"
