@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Home;
+namespace App\Services;
 
 use Procket\Framework\ServiceInterface;
 

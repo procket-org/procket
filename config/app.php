@@ -4,7 +4,7 @@ use Procket\Framework\Middleware\StartSession;
 
 return [
     'debug' => env('APP_DEBUG', true),
-    'multipleGroups' => true,
+    'multipleGroups' => false,
     'locale' => 'en',
     'fallbackLocale' => null,
     'routeName' => 'route',
