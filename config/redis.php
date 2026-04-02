@@ -37,6 +37,18 @@ return [
             'options' => [
                 'prefix' => 'procket_lock:'
             ]
+        ],
+        'session' => [
+            'parameters' => [
+                'host' => env('REDIS_HOST', '127.0.0.1'),
+                'port' => env('REDIS_PORT', '6379'),
+                'username' => env('REDIS_USERNAME'),
+                'password' => env('REDIS_PASSWORD'),
+                'database' => env('REDIS_SESSION_DB', '3'),
+            ],
+            'options' => [
+                'prefix' => 'procket_session:'
+            ]
         ]
     ]
 ];

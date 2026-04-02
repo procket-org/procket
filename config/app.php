@@ -18,10 +18,12 @@ return [
     'dbConnections' => config('database.connections'),
     'defaultRedisConnection' => 'default',
     'redisConnections' => config('redis.connections'),
-    'cacheDriver' => 'file',
+    'cacheDriver' => env('CACHE_DRIVER', 'file'),
     'redisCacheConnection' => 'cache',
-    'lockDriver' => 'file',
+    'lockDriver' => env('LOCK_DRIVER', 'file'),
     'redisLockConnection' => 'lock',
+    'sessionDriver' => env('SESSION_DRIVER', 'file'),
+    'redisSessionConnection' => 'session',
     'twigOptions' => null,
     'diskConfigs' => config('storage.disks')
 ];
